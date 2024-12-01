@@ -1,10 +1,10 @@
 import csv
 
-file_path = "input_data.csv"
+FILE_PATH = "input_data.csv"
 column1 = []
 column2 = []
 
-with open(file_path, "r") as input_data:
+with open(FILE_PATH, "r", encoding="utf-8") as input_data:
     csvreader = csv.reader(input_data)
 
     for row in csvreader:
