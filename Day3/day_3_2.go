@@ -1,1 +1,1 @@
-package Day3
+package main
